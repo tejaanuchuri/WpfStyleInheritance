@@ -16,14 +16,14 @@
             <Setter Property="Background" Value="LightCoral"/>
             <Setter Property="Foreground" Value="White"/>
         </Style>
-        <Style BasedOn="{StaticResource ButtonThreeStyle}" TargetType="Button" x:Key="ButtonThreeStyle">
+        <Style BasedOn="{StaticResource ButtonTwoStyle}" TargetType="Button" x:Key="ButtonThreeStyle">
             <Setter Property="Background" Value="LawnGreen"/>
             <Setter Property="Foreground" Value="DarkRed"/>
         </Style>
     </Window.Resources>
     <Grid>
-        <Button Content="Button-1" Style="{StaticResource ButtonOneStyle}" Height="50" Width="400" Margin="200,102,200,282"/>
-        <Button Content="Button-2" Style="{StaticResource ButtonTwoStyle}" Height="50" Width="400" Margin="200,194,200,190"/>
-        <Button Content="Button-3" Style="{StaticResource ButtonThreeStyle}" Height="50" Width="400" Margin="200,286,200,98"/>
+        <Button Content="Button-1" Style="{StaticResource ButtonOneStyle}" Height="20" Width="200" Margin="0,38,0,346"/>
+        <Button Content="Button-2" Style="{StaticResource ButtonTwoStyle}" Height="20" Width="200" Margin="200,194,200,190"/>
+        <Button Content="Button-3" Style="{StaticResource ButtonThreeStyle}" Height="20" Width="200" Margin="200,346,200,38"/>
     </Grid>
 </Window>
